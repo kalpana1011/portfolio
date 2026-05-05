@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+/* Tailwind v4 defaults `dark:` to prefers-color-scheme; override so theme follows data-theme only */
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html[data-theme="dark"],
+  body[data-theme="dark"] {
+    color-scheme: dark;
+  }
+
+  *,
+  *::before,
+  *::after {
+    @apply box-border;
+  }
+
+  body {
+    @apply text-2xl bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 font-sans antialiased transition-colors duration-300;
+  }
+
+  #root {
+    @apply relative isolate min-h-screen;
+  }
+
+  a {
+    @apply text-inherit no-underline;
+  }
+}
+
+@layer utilities {
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .animate-float {
+    animation: float 7s ease-in-out infinite;
+  }
+
+  .animate-fade-up {
+    animation: fadeUp 0.8s ease both;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease both;
+  }
+
+  /* Site-wide grid (used by SiteBackground); tuned per data-theme */
+  .bg-site-grid {
+    background-image:
+      linear-gradient(to right, rgb(148 163 184 / 0.14) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(148 163 184 / 0.14) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  [data-theme="dark"] .bg-site-grid {
+    background-image:
+      linear-gradient(to right, rgb(148 163 184 / 0.07) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(148 163 184 / 0.07) 1px, transparent 1px);
+  }
+}

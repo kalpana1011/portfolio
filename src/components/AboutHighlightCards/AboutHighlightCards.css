@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+
+@layer components {
+  .about-highlight-cards {
+    @apply mt-4 grid gap-4 sm:grid-cols-2;
+  }
+
+  .about-highlight-card {
+    @apply rounded-2xl border border-slate-200/80 bg-gradient-to-b from-white to-slate-50/95 p-5 shadow-sm dark:border-slate-700/80 dark:from-slate-900/90 dark:to-slate-950/95;
+  }
+
+  .about-highlight-card__row {
+    @apply flex gap-3.5;
+  }
+
+  .about-highlight-card__icon {
+    @apply flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br text-white shadow-md ring-1 ring-white/20;
+  }
+
+  .about-highlight-card__icon--accessibility {
+    @apply from-amber-400 via-orange-400 to-orange-600;
+  }
+
+  .about-highlight-card__icon--team {
+    @apply from-fuchsia-500 via-pink-500 to-rose-600;
+  }
+
+  .about-highlight-card__icon--communication {
+    @apply from-violet-500 via-indigo-500 to-indigo-700;
+  }
+
+  .about-highlight-card__icon--analytics {
+    @apply from-sky-500 via-cyan-500 to-teal-600;
+  }
+
+  .about-highlight-card__body {
+    @apply min-w-0 flex-1;
+  }
+
+  .about-highlight-card__title {
+    @apply text-sm font-semibold leading-snug text-slate-900 dark:text-white;
+  }
+
+  .about-highlight-card__desc {
+    @apply mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-400;
+  }
+
+  .about-highlight-card__glyph {
+    @apply h-5 w-5 shrink-0;
+  }
+}

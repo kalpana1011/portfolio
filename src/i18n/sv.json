@@ -1,0 +1,267 @@
+{
+  "nav": {
+    "about": "Om",
+    "skills": "Kompetenser",
+    "experience": "Erfarenhet",
+    "projects": "Projekt",
+    "contact": "Kontakt",
+    "resume": "CV",
+    "menu": "Meny"
+  },
+  "hero": {
+    "designerTitle": "designer",
+    "designerSubtitle": "Frontenddesigner med fokus p\u00e5 UI-design och designsystem.",
+    "coderTitle": "<coder>",
+    "coderSubtitle": "Frontendutvecklare som skriver ren, elegant och effektiv kod.",
+    "role": "Frontendutvecklare",
+    "name": "Kalpana Pandey",
+    "summary": "Skickligt kombinerar analytiskt probleml\u00f6sning med moderna frontendtekniker som TypeScript och ReactJS. Brinner f\u00f6r att bygga tillg\u00e4ngliga, datadrivna anv\u00e4ndargr\u00e4nssnitt och samarbeta i agila milj\u00f6er f\u00f6r att leverera webbprodukter av h\u00f6g kvalitet.",
+    "ctaContact": "L\u00e5t oss prata",
+    "ctaResume": "Ladda ner CV",
+    "scroll": "Skrolla f\u00f6r att utforska",
+    "imageAlt": "Portr\u00e4tt av Kalpana Pandey"
+  },
+  "about": {
+    "title": "Om",
+    "subtitle": "En kort introduktion",
+    "summary": "Fokuserad p\u00e5 att bygga skalbara, tillg\u00e4ngliga och h\u00f6gpresterande webbapplikationer med moderna JavaScript-ramverk. Har byggt en stark grund i analytiskt t\u00e4nkande, datatolkning och komplex probleml\u00f6sning.",
+    "availability": "S\u00f6ker praktik (september 2026\u2013mars 2027)",
+    "highlightsTitle": "H\u00f6jdpunkter",
+    "highlights": [
+      {
+        "title": "Tillg\u00e4ngliga UI och responsiva layouter",
+        "description": "Semantisk struktur, tangentbordsv\u00e4nliga m\u00f6nster och layouter som fungerar \u00f6ver enheter och sk\u00e4rmstorlekar.",
+        "icon": "accessibility"
+      },
+      {
+        "title": "Starkt samarbete i agila team",
+        "description": "Trygg i sprintar, stand-ups och tv\u00e4rfunktionellt arbete med designers, utvecklare och intressenter.",
+        "icon": "team"
+      },
+      {
+        "title": "Tydlig kommunikation och kundfokuserad leverans",
+        "description": "Tydliga tidslinjer, f\u00f6rv\u00e4ntningar och uppf\u00f6ljning s\u00e5 att alla drar \u00e5t samma h\u00e5ll fr\u00e5n start till lansering.",
+        "icon": "communication"
+      },
+      {
+        "title": "Datadrivna, anv\u00e4ndarcentrerade designbeslut",
+        "description": "Anv\u00e4nder m\u00e4tv\u00e4rden och feedback f\u00f6r att styra prioriteringar\u2014med balans mellan m\u00e5l och verkliga anv\u00e4ndarbehov.",
+        "icon": "analytics"
+      }
+    ],
+    "locationLabel": "Plats",
+    "emailLabel": "E-post",
+    "phoneLabel": "Telefon"
+  },
+  "skills": {
+    "title": "Tekniska kompetenser",
+    "subtitle": "Ett urval av min expertis inom frontendutveckling",
+    "techTitle": "Stack",
+    "toolsTitle": "Verktyg",
+    "techCards": [
+      { "name": "HTML5", "icon": "html5" },
+      { "name": "CSS3", "icon": "css3" },
+      { "name": "Sass", "icon": "sass" },
+      { "name": "JavaScript", "icon": "javascript" },
+      { "name": "TypeScript", "icon": "typescript" },
+      { "name": "React", "icon": "react" },
+      { "name": "Vite", "icon": "vite" },
+      { "name": "Tailwind CSS", "icon": "tailwindcss" },
+      { "name": "Bootstrap", "icon": "bootstrap" },
+      { "name": "Git", "icon": "git" },
+      { "name": "Node.js", "icon": "nodedotjs" },
+      { "name": "Express.js", "icon": "express" },
+      { "name": "Socket.IO", "icon": "socketdotio" },
+      { "name": "MongoDB", "icon": "mongodb" },
+      { "name": "Mongoose", "icon": "mongoose" },
+      { "name": "Accessibility", "icon": "w3c" }
+    ],
+    "toolCards": [
+      { "name": "Figma", "icon": "figma" },
+      { "name": "Postman", "icon": "postman" },
+      { "name": "GitHub", "icon": "github" },
+      { "name": "VS Code", "icon": "visualstudiocode" },
+      { "name": "npm", "icon": "npm" },
+      { "name": "Jira", "icon": "jira" }
+    ],
+    "languagesTitle": "Spr\u00e5k",
+    "languages": [
+      { "name": "Engelska", "level": "Flytande", "flag": "\uD83C\uDDEC\uD83C\uDDE7" },
+      { "name": "Svenska", "level": "Professionell", "flag": "\uD83C\uDDF8\uD83C\uDDEA" },
+      { "name": "Hindi", "level": "Modersm\u00e5l", "flag": "\uD83C\uDDEE\uD83C\uDDF3" },
+      { "name": "Marathi", "level": "Modersm\u00e5l", "flag": "\uD83C\uDDEE\uD83C\uDDF3" },
+      { "name": "Sanskrit", "level": "Grundl\u00e4ggande", "flag": "\uD83C\uDDEE\uD83C\uDDF3" }
+    ]
+  },
+  "experience": {
+    "title": "Erfarenhet",
+    "subtitle": "Professionell erfarenhet och personliga kapitel",
+    "lifeBadge": "Livskapitel",
+    "items": [
+      {
+        "variant": "life",
+        "accent": "family",
+        "emoji": "\uD83D\uDC9B",
+        "role": "Familj och f\u00f6r\u00e4ldraskap",
+        "company": "Ett kapitel hemma",
+        "period": "2022 - 2025",
+        "summary": "Njuter av v\u00e5rt andra f\u00f6r\u00e4ldraskap\u2014med fokus p\u00e5 familj, n\u00e4rvaro och de f\u00f6rsta \u00e5ren tillsammans."
+      },
+      {
+        "emoji": "\uD83D\uDCBB",
+        "workAccent": "freelance",
+        "role": "Frilansande webbutvecklare",
+        "company": "DevArena Solutions",
+        "period": "2019 - 2021",
+        "location": "Distans",
+        "bullets": [
+          "Designade och utvecklade responsiva, anv\u00e4ndarcentrerade webbgr\u00e4nssnitt med HTML, CSS och JavaScript.",
+          "Tolkade kundkrav till funktionell kod med god webbl\u00e4sarkompatibilitet.",
+          "Optimerade layouter f\u00f6r mobilanpassning och prestanda."
+        ]
+      },
+      {
+        "variant": "life",
+        "accent": "sweden",
+        "emoji": "\uD83C\uDDF8\uD83C\uDDEA",
+        "role": "Nya r\u00f6tter i Sverige",
+        "company": "SFI, spr\u00e5k och kultur",
+        "period": "2015 - 2018",
+        "summary": "Flyttade till Sverige och lade tid p\u00e5 svenska spr\u00e5ket och kulturen via SFI (svenska f\u00f6r invandrare)\u2014en grund f\u00f6r liv och arbete h\u00e4r."
+      },
+      {
+        "emoji": "\uD83D\uDCDA",
+        "workAccent": "teaching",
+        "role": "Privat l\u00e4rare",
+        "company": "RS Private Tutorials, Mumbai",
+        "period": "2011 - 2014",
+        "location": "Mumbai, Indien",
+        "bullets": [
+          "Undervisade i historia, naturvetenskap och ekonomi f\u00f6r yngre elever.",
+          "F\u00f6rb\u00e4ttrade engagemang och betyg genom strukturerade lektionsplaner.",
+          "Utvecklade tydlig kommunikation och logiskt t\u00e4nkande som anv\u00e4nds i frontendutveckling."
+        ]
+      }
+    ],
+    "educationTitle": "Utbildning",
+    "education": [
+      {
+        "program": "Frontendutveckling",
+        "school": "Medieinstitutet",
+        "period": "2025 - 2027"
+      },
+      {
+        "program": "Kandidatexamen i humaniora",
+        "school": "Mumbai University",
+        "period": "2009 - 2011"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projekt",
+    "subtitle": "Ett urval av projekt jag har arbetat med.",
+    "filterAll": "Alla",
+    "filterDesign": "Design",
+    "filterWeb": "Webb",
+    "openPreviewNewTab": "\u00d6ppna i ny flik",
+    "items": [
+      {
+        "id": "bagpack",
+        "title": "Bagpack Shop \u2013 Figma-design",
+        "description": "E-handels-UI och interaktiva prototyper f\u00f6r desktop, surfplatta och mobil\u2014gjorda i Figma.",
+        "tags": ["Figma", "UI-design", "Prototyp", "Responsiv"],
+        "category": "design",
+        "externalLabel": "\u00d6ppna i Figma",
+        "externalUrl": "https://www.figma.com/proto/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=259-2790&t=et9jgn8MwLVWBo0R-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=205%3A1690",
+        "previewKind": "figma-tabs",
+        "figmaFrames": [
+          {
+            "label": "Desktop",
+            "url": "https://www.figma.com/proto/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=259-2790&t=et9jgn8MwLVWBo0R-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=205%3A1690"
+          },
+          {
+            "label": "Surfplatta",
+            "url": "https://www.figma.com/proto/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=205-1690&t=VROEmipyP2wGy4LE-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=205%3A1690"
+          },
+          {
+            "label": "Mobil",
+            "url": "https://www.figma.com/proto/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=144-1077&t=TQWxwg3GJw03hWrG-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=205%3A1690"
+          }
+        ]
+      },
+      {
+        "id": "optimus",
+        "title": "Optimus: komponentbibliotek",
+        "description": "Ett Figma-komponentbibliotek f\u00f6r konsekventa UI-m\u00f6nster, varianter och dokumentation.",
+        "tags": ["Figma", "Designsystem", "Komponenter"],
+        "category": "design",
+        "externalLabel": "\u00d6ppna i Figma",
+        "externalUrl": "https://www.figma.com/design/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=414-407&t=Wm7eenfS653TI56i-1",
+        "previewKind": "figma-tabs",
+        "figmaFrames": [
+          {
+            "label": "Bibliotek",
+            "url": "https://www.figma.com/design/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=414-407&t=Wm7eenfS653TI56i-1"
+          },
+          {
+            "label": "Design tokens",
+            "url": "https://www.figma.com/design/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=358-5946&t=TEUZVR6IVHTl2Gtg-1"
+          },
+          {
+            "label": "Komponenter",
+            "url": "https://www.figma.com/design/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=358-5945&t=TEUZVR6IVHTl2Gtg-1"
+          }
+        ]
+      },
+      {
+        "id": "winter-shop",
+        "title": "The Winter Shop",
+        "description": "En premium e-handelsbutik som f\u00f6ljer Optimus designsystem\u2014Vite, TypeScript och modul\u00e4r SCSS. Endast frontend med mockad data.",
+        "tags": ["Vite", "TypeScript", "SCSS", "E-handel"],
+        "category": "web",
+        "externalLabel": "\u00d6ppna live",
+        "externalUrl": "https://winter-shop-pi.vercel.app/",
+        "secondaryLabel": "GitHub",
+        "secondaryUrl": "https://github.com/kalpana1011/winter-shop",
+        "previewKind": "iframe",
+        "iframeUrl": "https://winter-shop-pi.vercel.app/"
+      },
+      {
+        "id": "todo",
+        "title": "Todo-applikation",
+        "description": "En fokuserad todo-app med dra-och-sl\u00e4pp, byggd med semantisk HTML, Tailwind CSS och TypeScript.",
+        "tags": ["HTML", "CSS", "Tailwind", "TypeScript"],
+        "category": "web",
+        "externalLabel": "\u00d6ppna live",
+        "externalUrl": "https://todo-app-theta-seven-89.vercel.app/",
+        "secondaryLabel": "GitHub",
+        "secondaryUrl": "https://github.com/kalpana1011/todo-app",
+        "previewKind": "iframe",
+        "iframeUrl": "https://todo-app-theta-seven-89.vercel.app/"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Har du ett projekt eller en fr\u00e5ga? L\u00e5t oss connecta.",
+    "email": "kalpana.pandey1011@gmail.com",
+    "phone": "+46 76 759 02 59",
+    "location": "S\u00f6dert\u00e4lje-15135, Sverige",
+    "cta": "Skicka meddelande"
+  },
+  "footer": {
+    "tagline": "Frontendutvecklare med fokus p\u00e5 tillg\u00e4ngliga och anv\u00e4ndarcentrerade webbupplevelser.",
+    "linksTitle": "Snabbl\u00e4nkar"
+  },
+  "theme": {
+    "label": "Tema",
+    "light": "Ljust",
+    "dark": "M\u00f6rkt",
+    "auto": "Auto"
+  },
+  "language": {
+    "label": "Spr\u00e5k",
+    "english": "Engelska",
+    "swedish": "Svenska"
+  }
+}

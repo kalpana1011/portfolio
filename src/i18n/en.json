@@ -1,0 +1,267 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "resume": "Resume",
+    "menu": "Menu"
+  },
+  "hero": {
+    "designerTitle": "designer",
+    "designerSubtitle": "Frontend designer focused on UI design and design systems.",
+    "coderTitle": "<coder>",
+    "coderSubtitle": "Frontend developer who writes clean, elegant, and efficient code.",
+    "role": "Frontend Developer",
+    "name": "Kalpana Pandey",
+    "summary": "Expertly blending analytical problem-solving with modern frontend technologies like TypeScript and ReactJS. Passionate about building accessible, data-informed user interfaces and collaborating in Agile environments to deliver high-quality web products.",
+    "ctaContact": "Let's Connect",
+    "ctaResume": "Download Resume",
+    "scroll": "Scroll to explore",
+    "imageAlt": "Portrait of Kalpana Pandey"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "A quick introduction",
+    "summary": "Focused on building scalable, accessible, and high-performance web applications using modern JavaScript frameworks. Developed a strong foundation in analytical thinking, data interpretation, and complex problem-solving.",
+    "availability": "Looking for internship (September 2026 – March 2027)",
+    "highlightsTitle": "Highlights",
+    "highlights": [
+      {
+        "title": "Accessible UI and responsive layouts",
+        "description": "Semantic structure, keyboard-friendly patterns, and layouts that adapt cleanly across devices and breakpoints.",
+        "icon": "accessibility"
+      },
+      {
+        "title": "Strong collaboration in Agile teams",
+        "description": "Comfortable in sprints, stand-ups, and cross-functional work with designers, developers, and stakeholders.",
+        "icon": "team"
+      },
+      {
+        "title": "Clear communication and client-focused delivery",
+        "description": "Transparent timelines, expectations, and updates so everyone stays aligned from kickoff to launch.",
+        "icon": "communication"
+      },
+      {
+        "title": "Data-informed, user-centric design decisions",
+        "description": "Decisions grounded in metrics and feedback, balancing business goals with real user needs.",
+        "icon": "analytics"
+      }
+    ],
+    "locationLabel": "Location",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "subtitle": "A curated selection of my expertise in frontend development",
+    "techTitle": "Stack",
+    "toolsTitle": "Tools",
+    "techCards": [
+      { "name": "HTML5", "icon": "html5" },
+      { "name": "CSS3", "icon": "css3" },
+      { "name": "Sass", "icon": "sass" },
+      { "name": "JavaScript", "icon": "javascript" },
+      { "name": "TypeScript", "icon": "typescript" },
+      { "name": "React", "icon": "react" },
+      { "name": "Vite", "icon": "vite" },
+      { "name": "Tailwind CSS", "icon": "tailwindcss" },
+      { "name": "Bootstrap", "icon": "bootstrap" },
+      { "name": "Git", "icon": "git" },
+      { "name": "Node.js", "icon": "nodedotjs" },
+      { "name": "Express.js", "icon": "express" },
+      { "name": "Socket.IO", "icon": "socketdotio" },
+      { "name": "MongoDB", "icon": "mongodb" },
+      { "name": "Mongoose", "icon": "mongoose" },
+      { "name": "Accessibility", "icon": "w3c" }
+    ],
+    "toolCards": [
+      { "name": "Figma", "icon": "figma" },
+      { "name": "Postman", "icon": "postman" },
+      { "name": "GitHub", "icon": "github" },
+      { "name": "VS Code", "icon": "visualstudiocode" },
+      { "name": "npm", "icon": "npm" },
+      { "name": "Jira", "icon": "jira" }
+    ],
+    "languagesTitle": "Languages",
+    "languages": [
+      { "name": "English", "level": "Fluent", "flag": "\uD83C\uDDEC\uD83C\uDDE7" },
+      { "name": "Swedish", "level": "Professional", "flag": "\uD83C\uDDF8\uD83C\uDDEA" },
+      { "name": "Hindi", "level": "Native", "flag": "\uD83C\uDDEE\uD83C\uDDF3" },
+      { "name": "Marathi", "level": "Native", "flag": "\uD83C\uDDEE\uD83C\uDDF3" },
+      { "name": "Sanskrit", "level": "Basic", "flag": "\uD83C\uDDEE\uD83C\uDDF3" }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Professional experience & personal chapters",
+    "lifeBadge": "Life chapter",
+    "items": [
+      {
+        "variant": "life",
+        "accent": "family",
+        "emoji": "\uD83D\uDC9B",
+        "role": "Family & parenthood",
+        "company": "A chapter at home",
+        "period": "2022 - 2025",
+        "summary": "Enjoying our second parenthood—focused on family, presence, and the early years together."
+      },
+      {
+        "emoji": "\uD83D\uDCBB",
+        "workAccent": "freelance",
+        "role": "Freelance Web Developer",
+        "company": "DevArena Solutions",
+        "period": "2019 - 2021",
+        "location": "Remote",
+        "bullets": [
+          "Designed and developed responsive, user-centric web interfaces using HTML, CSS, and JavaScript.",
+          "Translated client requirements into functional code with cross-browser compatibility.",
+          "Optimized layouts for mobile responsiveness and performance."
+        ]
+      },
+      {
+        "variant": "life",
+        "accent": "sweden",
+        "emoji": "\uD83C\uDDF8\uD83C\uDDEA",
+        "role": "New roots in Sweden",
+        "company": "SFI, language & culture",
+        "period": "2015 - 2018",
+        "summary": "Moved to Sweden and invested in Swedish language and culture through SFI (Swedish for Immigrants)—building a strong foundation for life and work here."
+      },
+      {
+        "emoji": "\uD83D\uDCDA",
+        "workAccent": "teaching",
+        "role": "Private Tutor",
+        "company": "RS Private Tutorials, Mumbai",
+        "period": "2011 - 2014",
+        "location": "Mumbai, India",
+        "bullets": [
+          "Taught History, Science, and Economics to elementary students.",
+          "Improved student engagement and grades through structured lesson plans.",
+          "Built clear communication and logical thinking skills used in frontend development."
+        ]
+      }
+    ],
+    "educationTitle": "Education",
+    "education": [
+      {
+        "program": "Frontend Development",
+        "school": "Medieinstitutet",
+        "period": "2025 - 2027"
+      },
+      {
+        "program": "Bachelor of Arts",
+        "school": "Mumbai University",
+        "period": "2009 - 2011"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A collection of projects I've worked on.",
+    "filterAll": "All",
+    "filterDesign": "Design",
+    "filterWeb": "Web",
+    "openPreviewNewTab": "Open in new tab",
+    "items": [
+      {
+        "id": "bagpack",
+        "title": "Bagpack Shop Figma Design",
+        "description": "E-commerce UI and interactive prototypes for desktop, tablet, and mobile—crafted in Figma.",
+        "tags": ["Figma", "UI Design", "Prototype", "Responsive"],
+        "category": "design",
+        "externalLabel": "Open in Figma",
+        "externalUrl": "https://www.figma.com/proto/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=259-2790&t=et9jgn8MwLVWBo0R-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=205%3A1690",
+        "previewKind": "figma-tabs",
+        "figmaFrames": [
+          {
+            "label": "Desktop",
+            "url": "https://www.figma.com/proto/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=259-2790&t=et9jgn8MwLVWBo0R-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=205%3A1690"
+          },
+          {
+            "label": "Tablet",
+            "url": "https://www.figma.com/proto/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=205-1690&t=VROEmipyP2wGy4LE-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=205%3A1690"
+          },
+          {
+            "label": "Mobile",
+            "url": "https://www.figma.com/proto/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=144-1077&t=TQWxwg3GJw03hWrG-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=205%3A1690"
+          }
+        ]
+      },
+      {
+        "id": "optimus",
+        "title": "Optimus: Component Design Library",
+        "description": "A Figma component library for consistent UI patterns, variants, and documentation.",
+        "tags": ["Figma", "Design System", "Components"],
+        "category": "design",
+        "externalLabel": "Open in Figma",
+        "externalUrl": "https://www.figma.com/design/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=414-407&t=Wm7eenfS653TI56i-1",
+        "previewKind": "figma-tabs",
+        "figmaFrames": [
+          {
+            "label": "Library",
+            "url": "https://www.figma.com/design/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=414-407&t=Wm7eenfS653TI56i-1"
+          },
+          {
+            "label": "Design Tokens",
+            "url": "https://www.figma.com/design/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=358-5946&t=TEUZVR6IVHTl2Gtg-1"
+          },
+          {
+            "label": "Components",
+            "url": "https://www.figma.com/design/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=358-5945&t=TEUZVR6IVHTl2Gtg-1"
+          }
+        ]
+      },
+      {
+        "id": "winter-shop",
+        "title": "The Winter Shop",
+        "description": "A premium e-commerce storefront implementing the Optimus design system—Vite, TypeScript, and modular SCSS. Frontend-only demo with mock data.",
+        "tags": ["Vite", "TypeScript", "SCSS", "E-commerce"],
+        "category": "web",
+        "externalLabel": "Open live site",
+        "externalUrl": "https://winter-shop-pi.vercel.app/",
+        "secondaryLabel": "GitHub",
+        "secondaryUrl": "https://github.com/kalpana1011/winter-shop",
+        "previewKind": "iframe",
+        "iframeUrl": "https://winter-shop-pi.vercel.app/"
+      },
+      {
+        "id": "todo",
+        "title": "Todo Application",
+        "description": "A focused todo app with drag-to-sort, built with semantic HTML, Tailwind CSS, and TypeScript.",
+        "tags": ["HTML", "CSS", "Tailwind", "TypeScript"],
+        "category": "web",
+        "externalLabel": "Open live site",
+        "externalUrl": "https://todo-app-theta-seven-89.vercel.app/",
+        "secondaryLabel": "GitHub",
+        "secondaryUrl": "https://github.com/kalpana1011/todo-app",
+        "previewKind": "iframe",
+        "iframeUrl": "https://todo-app-theta-seven-89.vercel.app/"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a project in mind or a question? Let's connect.",
+    "email": "kalpana.pandey1011@gmail.com",
+    "phone": "+46 76 759 02 59",
+    "location": "S\u00f6dert\u00e4lje-15135, Sweden",
+    "cta": "Send Message"
+  },
+  "footer": {
+    "tagline": "Frontend Developer specializing in accessible, user-focused web experiences.",
+    "linksTitle": "Quick Links"
+  },
+  "theme": {
+    "label": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "auto": "Auto"
+  },
+  "language": {
+    "label": "Language",
+    "english": "English",
+    "swedish": "Swedish"
+  }
+}

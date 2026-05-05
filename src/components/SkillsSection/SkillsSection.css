@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+
+@layer components {
+  .skills-section {
+    @apply scroll-mt-24 border-t border-slate-200/70 py-16 dark:border-slate-800/70;
+  }
+
+  .skills-section__intro {
+    @apply text-center;
+  }
+
+  .skills-section__eyebrow {
+    @apply text-xs uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400;
+  }
+
+  .skills-section__title {
+    @apply mt-3 text-3xl font-bold tracking-tight text-sky-600 dark:text-sky-400;
+  }
+
+  .skills-panel {
+    @apply relative mt-10 overflow-hidden rounded-3xl border border-slate-200/60 bg-white/75 px-4 py-10 backdrop-blur-[2px] dark:border-slate-800/60 dark:bg-slate-900/50 sm:px-6 sm:py-12 lg:px-10;
+  }
+
+  .skills-panel__inner {
+    @apply relative space-y-10;
+  }
+
+  .skills-section__group-title {
+    @apply text-center text-sm font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400;
+  }
+
+  .skills-grid {
+    @apply mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-6;
+  }
+
+  .skills-grid--tools {
+    @apply mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-6;
+  }
+
+  .skills-card {
+    @apply flex flex-col items-center justify-center rounded-[1.35rem] border border-slate-200/90 px-3 py-4 text-center will-change-transform;
+    @apply bg-gradient-to-b from-white to-slate-50/95 shadow-sm;
+    @apply transition-[opacity,transform,box-shadow,border-color,background-image] duration-500 ease-out;
+    @apply hover:-translate-y-2 hover:border-sky-300/90 hover:shadow-xl hover:shadow-sky-200/35;
+    @apply hover:bg-gradient-to-b hover:from-sky-50/98 hover:to-sky-100/70 hover:ring-1 hover:ring-sky-200/70;
+    @apply dark:border-slate-600/90 dark:from-slate-950 dark:to-slate-900/95;
+    @apply dark:hover:border-sky-500/55 dark:hover:from-sky-950/70 dark:hover:to-slate-800/95 dark:hover:shadow-sky-950/40 dark:hover:ring-sky-500/25;
+    @apply motion-reduce:transition-none motion-reduce:hover:translate-y-0;
+  }
+
+  .skills-card--hidden {
+    @apply translate-y-3 scale-[0.97] opacity-0;
+  }
+
+  .skills-card--visible {
+    @apply translate-y-0 scale-100 opacity-100;
+  }
+
+  .skills-card__logo-wrap {
+    @apply mb-2 flex h-12 items-center justify-center sm:mb-3 sm:h-14;
+  }
+
+  .skills-card__logo {
+    @apply h-9 w-9 object-contain drop-shadow-sm transition-transform duration-300 group-hover:scale-110 motion-reduce:group-hover:scale-100 sm:h-11 sm:w-11;
+  }
+
+  .skills-card__name {
+    @apply text-[11px] font-medium leading-tight text-slate-800 transition-colors group-hover:text-slate-900 dark:text-slate-200 dark:group-hover:text-white sm:text-xs;
+  }
+
+  .skills-logo-fallback {
+    @apply flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 text-xs font-bold text-slate-600 dark:bg-slate-700 dark:text-slate-300 sm:h-12 sm:w-12;
+  }
+
+  .skills-lang-panel {
+    @apply relative mt-10 overflow-hidden rounded-3xl border border-slate-200/60 bg-white/75 px-4 py-8 backdrop-blur-[2px] dark:border-slate-800/60 dark:bg-slate-900/50 sm:px-8 sm:py-10;
+  }
+
+  .skills-lang-list {
+    @apply mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5;
+  }
+
+  .skills-lang-item {
+    @apply flex gap-3 rounded-2xl border border-slate-200/80 bg-gradient-to-b from-white to-slate-50/90 px-4 py-3 text-left shadow-sm dark:border-slate-700/80 dark:from-slate-950 dark:to-slate-900/90;
+  }
+
+  .skills-lang-flag {
+    @apply flex h-12 w-12 shrink-0 select-none items-center justify-center rounded-xl border border-slate-200/70 bg-white/90 text-[1.65rem] leading-none shadow-inner dark:border-slate-600/60 dark:bg-slate-800/80;
+  }
+
+  .skills-lang-body {
+    @apply flex min-w-0 flex-1 flex-col justify-center;
+  }
+
+  .skills-lang-name {
+    @apply text-sm font-semibold text-slate-800 dark:text-slate-100;
+  }
+
+  .skills-lang-level {
+    @apply mt-1.5 inline-flex w-fit rounded-full bg-sky-100/90 px-2.5 py-0.5 text-[11px] font-medium uppercase tracking-wide text-sky-800 dark:bg-sky-950/80 dark:text-sky-300;
+  }
+}

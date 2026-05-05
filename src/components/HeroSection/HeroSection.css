@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+
+@layer components {
+  .hero-section {
+    @apply pb-14 pt-6 lg:pt-10;
+  }
+
+  .hero-section__grid {
+    @apply grid items-center gap-8 lg:grid-cols-[1fr_auto_1fr];
+  }
+
+  .hero-section__col {
+    @apply relative z-10 text-center;
+  }
+
+  .hero-section__col--left {
+    @apply lg:text-left;
+  }
+
+  .hero-section__col--right {
+    @apply lg:text-right;
+  }
+
+  .hero-section__title {
+    @apply text-4xl font-semibold tracking-tight sm:text-5xl;
+  }
+
+  .hero-section__title--designer {
+    @apply lowercase;
+  }
+
+  .hero-section__subtitle {
+    @apply mt-3 text-sm text-slate-500 dark:text-slate-400;
+  }
+
+  .hero-section__portrait-wrap {
+    @apply flex justify-center;
+  }
+
+  .hero-section__portrait-glow {
+    @apply absolute -inset-8 rounded-full bg-slate-200/60 blur-2xl dark:bg-slate-800/60;
+  }
+
+  .hero-section__portrait {
+    @apply relative h-52 w-52 rounded-full border-4 border-white object-cover shadow-xl dark:border-slate-900 sm:h-60 sm:w-60;
+  }
+
+  .hero-section__intro {
+    @apply mt-10 text-center;
+  }
+
+  .hero-section__role {
+    @apply text-xs uppercase tracking-[0.35em] text-slate-500 dark:text-slate-400;
+  }
+
+  .hero-section__name {
+    @apply mt-3 text-4xl font-semibold sm:text-5xl;
+  }
+
+  .hero-section__summary {
+    @apply mx-auto mt-4 max-w-2xl text-base text-slate-600 dark:text-slate-300;
+  }
+
+  .hero-section__actions {
+    @apply mt-6 flex flex-wrap justify-center gap-3;
+  }
+
+  .hero-section__cta-primary {
+    @apply inline-flex items-center rounded-full bg-slate-900 px-5 py-2 text-sm font-medium text-white transition hover:bg-slate-700 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200;
+  }
+
+  .hero-section__cta-secondary {
+    @apply inline-flex items-center rounded-full border border-slate-200 px-5 py-2 text-sm font-medium text-slate-700 transition hover:border-slate-300 hover:text-slate-900 dark:border-slate-800 dark:text-slate-300 dark:hover:border-slate-600 dark:hover:text-white;
+  }
+
+  .hero-section__scroll-hint {
+    @apply mt-6 text-xs uppercase tracking-[0.3em] text-slate-400 dark:text-slate-500;
+  }
+}
