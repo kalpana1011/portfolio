@@ -2,17 +2,18 @@
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
+
 @layer components {
   .experience-section {
     @apply scroll-mt-24 border-t border-slate-200/70 py-16 dark:border-slate-800/70;
   }
 
   .experience-section__eyebrow {
-    @apply text-lg uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400;
+    @apply text-xs uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400;
   }
 
   .experience-section__title {
-    @apply mt-3 text-4xl font-semibold;
+    @apply mt-3 text-3xl font-semibold;
   }
 
   .experience-section__grid {
@@ -40,7 +41,7 @@
   }
 
   .experience-life-emoji {
-    @apply flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br text-4xl leading-none shadow-lg ring-2 ring-white/50 dark:ring-white/10;
+    @apply flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br text-3xl leading-none shadow-lg ring-2 ring-white/50 dark:ring-white/10;
   }
 
   .experience-life-emoji--sweden {
@@ -60,7 +61,7 @@
   }
 
   .experience-life-badge {
-    @apply inline-flex rounded-full bg-white/80 px-2.5 py-0.5 text-[16px] font-semibold uppercase tracking-wider ring-1 dark:bg-black/20;
+    @apply inline-flex rounded-full bg-white/80 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider ring-1 dark:bg-black/20;
   }
 
   .experience-life-badge--sweden {
@@ -72,15 +73,15 @@
   }
 
   .experience-section__period {
-    @apply text-lg uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400;
+    @apply text-xs uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400;
   }
 
   .experience-life-role {
-    @apply mt-2 text-xl font-semibold text-slate-900 dark:text-white;
+    @apply mt-2 text-lg font-semibold text-slate-900 dark:text-white;
   }
 
   .experience-life-company {
-    @apply text-xl font-medium;
+    @apply text-sm font-medium;
   }
 
   .experience-life-company--sweden {
@@ -92,7 +93,7 @@
   }
 
   .experience-life-summary {
-    @apply mt-3 text-xl leading-relaxed text-slate-600 dark:text-slate-300;
+    @apply mt-3 text-sm leading-relaxed text-slate-600 dark:text-slate-300;
   }
 
   .experience-work-card {
@@ -100,7 +101,7 @@
   }
 
   .experience-work-emoji {
-    @apply flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br text-4xl leading-none shadow-lg ring-2 ring-white/60 dark:ring-white/10;
+    @apply flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br text-3xl leading-none shadow-lg ring-2 ring-white/60 dark:ring-white/10;
   }
 
   .experience-work-emoji--freelance {
@@ -116,19 +117,19 @@
   }
 
   .experience-work-card__role {
-    @apply text-xl font-semibold;
+    @apply text-lg font-semibold;
   }
 
   .experience-work-card__company {
-    @apply text-xl text-slate-500 dark:text-slate-400;
+    @apply text-sm text-slate-500 dark:text-slate-400;
   }
 
   .experience-work-card__location {
-    @apply mt-1 text-lg uppercase tracking-[0.2em] text-slate-400 dark:text-slate-500;
+    @apply mt-1 text-xs uppercase tracking-[0.2em] text-slate-400 dark:text-slate-500;
   }
 
   .experience-work-card__bullets {
-    @apply mt-4 space-y-2 text-xl text-slate-600 dark:text-slate-300;
+    @apply mt-4 space-y-2 text-sm text-slate-600 dark:text-slate-300;
   }
 
   .experience-work-card__bullet {
@@ -144,7 +145,7 @@
   }
 
   .experience-education__title {
-    @apply text-xl font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400;
+    @apply text-sm font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400;
   }
 
   .experience-education__list {
@@ -152,14 +153,14 @@
   }
 
   .experience-education__program {
-    @apply text-xl font-semibold;
+    @apply text-sm font-semibold;
   }
 
   .experience-education__school {
-    @apply text-xl text-slate-500 dark:text-slate-400;
+    @apply text-sm text-slate-500 dark:text-slate-400;
   }
 
   .experience-education__period {
-    @apply text-lg uppercase tracking-[0.2em] text-slate-400 dark:text-slate-500;
+    @apply text-xs uppercase tracking-[0.2em] text-slate-400 dark:text-slate-500;
   }
 }

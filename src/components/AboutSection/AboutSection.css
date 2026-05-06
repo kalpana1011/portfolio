@@ -13,19 +13,19 @@
   }
 
   .about-section__eyebrow {
-    @apply text-lg uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400;
+    @apply text-xs uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400;
   }
 
   .about-section__title {
-    @apply mt-3 text-4xl font-semibold;
+    @apply mt-3 text-3xl font-semibold;
   }
 
   .about-section__summary {
-    @apply mt-4 text-lg text-slate-600 dark:text-slate-300;
+    @apply mt-4 text-base text-slate-600 dark:text-slate-300;
   }
 
   .about-section__badge {
-    @apply mt-6 inline-flex items-center rounded-full bg-slate-100 px-4 py-2 text-lg font-semibold uppercase tracking-[0.2em] text-slate-600 dark:bg-slate-900 dark:text-slate-300;
+    @apply mt-6 inline-flex items-center rounded-full bg-slate-100 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-slate-600 dark:bg-slate-900 dark:text-slate-300;
   }
 
   .about-section__aside {
@@ -37,15 +37,15 @@
   }
 
   .about-section__card-label {
-    @apply text-lg uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400;
+    @apply text-xs uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400;
   }
 
   .about-section__card-value {
-    @apply mt-2 text-xl font-medium;
+    @apply mt-2 text-sm font-medium;
   }
 
   .about-section__card-link {
-    @apply mt-2 block text-xl font-medium text-slate-700 transition hover:text-slate-900 dark:text-slate-200 dark:hover:text-white;
+    @apply mt-2 block text-sm font-medium text-slate-700 transition hover:text-slate-900 dark:text-slate-200 dark:hover:text-white;
   }
 
   .about-section__highlights {
@@ -53,6 +53,6 @@
   }
 
   .about-section__highlights-title {
-    @apply text-xl font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400;
+    @apply text-sm font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400;
   }
 }

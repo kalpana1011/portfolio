@@ -20,7 +20,7 @@
   }
 
   body {
-    @apply text-3xl bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 font-sans antialiased transition-colors duration-300;
+    @apply text-2xl bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 font-sans antialiased transition-colors duration-300;
   }
 
   #root {

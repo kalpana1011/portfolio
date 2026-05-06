@@ -61,11 +61,11 @@
   }
 
   .navbar__name--scrolled {
-    @apply text-xl;
+    @apply text-sm;
   }
 
   .navbar__name--hero {
-    @apply text-lg;
+    @apply text-base;
   }
 
   .navbar__desktop-nav {
@@ -85,7 +85,7 @@
   }
 
   .navbar__resume {
-    @apply hidden items-center rounded-full border border-slate-200/90 text-lg font-medium text-slate-700 transition hover:border-slate-300 hover:bg-slate-50 hover:text-slate-900 dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-600 dark:hover:bg-slate-800/50 dark:hover:text-white sm:inline-flex;
+    @apply hidden items-center rounded-full border border-slate-200/90 text-xs font-medium text-slate-700 transition hover:border-slate-300 hover:bg-slate-50 hover:text-slate-900 dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-600 dark:hover:bg-slate-800/50 dark:hover:text-white sm:inline-flex;
   }
 
   .navbar__resume--scrolled {
@@ -117,11 +117,11 @@
   }
 
   .navbar__nav-link--compact {
-    @apply px-2 py-1.5 text-lg;
+    @apply px-2 py-1.5 text-xs;
   }
 
   .navbar__nav-link--comfortable {
-    @apply px-2.5 py-2 text-xl;
+    @apply px-2.5 py-2 text-sm;
   }
 
   .navbar__nav-icon-wrap {
@@ -141,7 +141,7 @@
   }
 
   .navbar__mobile-nav {
-    @apply flex flex-col gap-1 text-xl font-medium text-slate-600 dark:text-slate-300;
+    @apply flex flex-col gap-1 text-sm font-medium text-slate-600 dark:text-slate-300;
   }
 
   .navbar__mobile-link {
@@ -149,6 +149,6 @@
   }
 
   .navbar__mobile-resume {
-    @apply mt-2 inline-flex w-fit items-center rounded-full border border-slate-200 px-3 py-2 text-lg font-medium text-slate-700 transition hover:border-slate-300 hover:text-slate-900 dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-600 dark:hover:text-white;
+    @apply mt-2 inline-flex w-fit items-center rounded-full border border-slate-200 px-3 py-2 text-xs font-medium text-slate-700 transition hover:border-slate-300 hover:text-slate-900 dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-600 dark:hover:text-white;
   }
 }

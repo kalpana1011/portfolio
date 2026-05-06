@@ -9,7 +9,7 @@
   }
 
   .language-toggle__btn {
-    @apply flex h-8 w-9 items-center justify-center rounded-md text-xl leading-none transition;
+    @apply flex h-8 w-9 items-center justify-center rounded-md text-lg leading-none transition;
   }
 
   .language-toggle__btn--active {

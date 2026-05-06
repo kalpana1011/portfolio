@@ -2,6 +2,7 @@
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
+
 @layer components {
   .skills-section {
     @apply scroll-mt-24 border-t border-slate-200/70 py-16 dark:border-slate-800/70;
@@ -12,11 +13,11 @@
   }
 
   .skills-section__eyebrow {
-    @apply text-lg uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400;
+    @apply text-xs uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400;
   }
 
   .skills-section__title {
-    @apply mt-3 text-4xl font-bold tracking-tight text-sky-600 dark:text-sky-400;
+    @apply mt-3 text-3xl font-bold tracking-tight text-sky-600 dark:text-sky-400;
   }
 
   .skills-panel {
@@ -28,7 +29,7 @@
   }
 
   .skills-section__group-title {
-    @apply text-center text-xl font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400;
+    @apply text-center text-sm font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400;
   }
 
   .skills-grid {
@@ -67,11 +68,11 @@
   }
 
   .skills-card__name {
-    @apply text-[15px] font-medium leading-tight text-slate-800 transition-colors group-hover:text-slate-900 dark:text-slate-200 dark:group-hover:text-white sm:text-lg;
+    @apply text-[11px] font-medium leading-tight text-slate-800 transition-colors group-hover:text-slate-900 dark:text-slate-200 dark:group-hover:text-white sm:text-xs;
   }
 
   .skills-logo-fallback {
-    @apply flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 text-lg font-bold text-slate-600 dark:bg-slate-700 dark:text-slate-300 sm:h-12 sm:w-12;
+    @apply flex h-10 w-10 items-center justify-center rounded-lg bg-slate-100 text-xs font-bold text-slate-600 dark:bg-slate-700 dark:text-slate-300 sm:h-12 sm:w-12;
   }
 
   .skills-lang-panel {
@@ -87,7 +88,7 @@
   }
 
   .skills-lang-flag {
-    @apply flex h-12 w-12 shrink-0 select-none items-center justify-center rounded-xl border border-slate-200/70 bg-white/90 text-[1.775rem] leading-none shadow-inner dark:border-slate-600/60 dark:bg-slate-800/80;
+    @apply flex h-12 w-12 shrink-0 select-none items-center justify-center rounded-xl border border-slate-200/70 bg-white/90 text-[1.65rem] leading-none shadow-inner dark:border-slate-600/60 dark:bg-slate-800/80;
   }
 
   .skills-lang-body {
@@ -95,10 +96,10 @@
   }
 
   .skills-lang-name {
-    @apply text-xl font-semibold text-slate-800 dark:text-slate-100;
+    @apply text-sm font-semibold text-slate-800 dark:text-slate-100;
   }
 
   .skills-lang-level {
-    @apply mt-1.5 inline-flex w-fit rounded-full bg-sky-100/90 px-2.5 py-0.5 text-[13px] font-medium uppercase tracking-wide text-sky-800 dark:bg-sky-950/80 dark:text-sky-300;
+    @apply mt-1.5 inline-flex w-fit rounded-full bg-sky-100/90 px-2.5 py-0.5 text-[11px] font-medium uppercase tracking-wide text-sky-800 dark:bg-sky-950/80 dark:text-sky-300;
   }
 }
