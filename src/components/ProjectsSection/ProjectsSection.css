@@ -13,11 +13,11 @@
   }
 
   .projects-section__title {
-    @apply inline-block border-b-4 border-sky-500 pb-2 text-3xl font-bold tracking-tight text-slate-900 dark:text-white;
+    @apply inline-block border-b-4 border-sky-500 pb-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-white;
   }
 
   .projects-section__subtitle {
-    @apply mx-auto mt-4 max-w-xl text-sm text-slate-600 dark:text-slate-400;
+    @apply mx-auto mt-4 max-w-xl text-xl text-slate-600 dark:text-slate-400;
   }
 
   .projects-section__filters {
@@ -25,7 +25,7 @@
   }
 
   .projects-section__filter-btn {
-    @apply rounded-full px-5 py-2 text-sm font-medium transition;
+    @apply rounded-full px-5 py-2 text-xl font-medium transition;
   }
 
   .projects-section__filter-btn--active {
@@ -49,11 +49,11 @@
   }
 
   .project-card__title {
-    @apply text-lg font-semibold text-slate-900 dark:text-white;
+    @apply text-xl font-semibold text-slate-900 dark:text-white;
   }
 
   .project-card__desc {
-    @apply mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-400;
+    @apply mt-2 text-xl leading-relaxed text-slate-600 dark:text-slate-400;
   }
 
   .project-card__tags {
@@ -61,7 +61,7 @@
   }
 
   .project-card__tag {
-    @apply rounded-full border border-slate-300/90 bg-white/80 px-2.5 py-0.5 text-xs font-medium text-slate-700 dark:border-slate-600 dark:bg-slate-800/80 dark:text-slate-200;
+    @apply rounded-full border border-slate-300/90 bg-white/80 px-2.5 py-0.5 text-lg font-medium text-slate-700 dark:border-slate-600 dark:bg-slate-800/80 dark:text-slate-200;
   }
 
   .project-card__links {
@@ -69,7 +69,7 @@
   }
 
   .project-card__link {
-    @apply inline-flex items-center gap-2 text-sm font-medium text-sky-600 transition hover:text-sky-500 dark:text-sky-400 dark:hover:text-sky-300;
+    @apply inline-flex items-center gap-2 text-xl font-medium text-sky-600 transition hover:text-sky-500 dark:text-sky-400 dark:hover:text-sky-300;
   }
 
   .project-card__link-icon {
@@ -81,7 +81,7 @@
   }
 
   .project-card__tab {
-    @apply rounded-full px-5 py-2 text-sm font-medium transition;
+    @apply rounded-full px-5 py-2 text-xl font-medium transition;
   }
 
   .project-card__tab--active {
@@ -101,7 +101,7 @@
   }
 
   .project-card__preview-fallback {
-    @apply flex h-full min-h-[200px] items-center justify-center text-sm text-slate-500;
+    @apply flex h-full min-h-[200px] items-center justify-center text-xl text-slate-500;
   }
 
   .project-card__footer {
@@ -109,6 +109,6 @@
   }
 
   .project-card__footer-link {
-    @apply text-xs text-sky-600/90 underline-offset-2 hover:underline dark:text-sky-400/90;
+    @apply text-lg text-sky-600/90 underline-offset-2 hover:underline dark:text-sky-400/90;
   }
 }

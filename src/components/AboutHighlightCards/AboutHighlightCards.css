@@ -41,11 +41,11 @@
   }
 
   .about-highlight-card__title {
-    @apply text-sm font-semibold leading-snug text-slate-900 dark:text-white;
+    @apply text-xl font-semibold leading-snug text-slate-900 dark:text-white;
   }
 
   .about-highlight-card__desc {
-    @apply mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-400;
+    @apply mt-2 text-xl leading-relaxed text-slate-600 dark:text-slate-400;
   }
 
   .about-highlight-card__glyph {
