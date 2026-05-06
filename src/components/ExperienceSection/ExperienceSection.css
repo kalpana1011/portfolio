@@ -13,7 +13,7 @@
   }
 
   .experience-section__title {
-    @apply mt-3 text-3xl font-semibold;
+    @apply mt-3 text-base font-semibold;
   }
 
   .experience-section__grid {
@@ -41,7 +41,7 @@
   }
 
   .experience-life-emoji {
-    @apply flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br text-3xl leading-none shadow-lg ring-2 ring-white/50 dark:ring-white/10;
+    @apply flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br text-base leading-none shadow-lg ring-2 ring-white/50 dark:ring-white/10;
   }
 
   .experience-life-emoji--sweden {
@@ -77,7 +77,7 @@
   }
 
   .experience-life-role {
-    @apply mt-2 text-lg font-semibold text-slate-900 dark:text-white;
+    @apply mt-2 text-base font-semibold text-slate-900 dark:text-white;
   }
 
   .experience-life-company {
@@ -101,7 +101,7 @@
   }
 
   .experience-work-emoji {
-    @apply flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br text-3xl leading-none shadow-lg ring-2 ring-white/60 dark:ring-white/10;
+    @apply flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br text-base leading-none shadow-lg ring-2 ring-white/60 dark:ring-white/10;
   }
 
   .experience-work-emoji--freelance {
@@ -117,7 +117,7 @@
   }
 
   .experience-work-card__role {
-    @apply text-lg font-semibold;
+    @apply text-base font-semibold;
   }
 
   .experience-work-card__company {

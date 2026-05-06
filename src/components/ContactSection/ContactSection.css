@@ -13,7 +13,7 @@
   }
 
   .contact-section__title {
-    @apply mt-3 text-3xl font-semibold;
+    @apply mt-3 text-base font-semibold;
   }
 
   .contact-section__subtitle {
@@ -29,7 +29,7 @@
   }
 
   .contact-section__card-title {
-    @apply text-lg font-semibold;
+    @apply text-base font-semibold;
   }
 
   .contact-section__card-title--muted {

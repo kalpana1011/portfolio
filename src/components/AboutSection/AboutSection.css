@@ -17,7 +17,7 @@
   }
 
   .about-section__title {
-    @apply mt-3 text-3xl font-semibold;
+    @apply mt-3 text-base font-semibold;
   }
 
   .about-section__summary {
