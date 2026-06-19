@@ -41,6 +41,7 @@ const BRAND_COLORS: Record<string, string> = {
   postman: "FF6C37",
   w3c: "005A9C",
   jira: "0052CC",
+  miro: "fad905",
 };
 
 const iconMonochromeFallback = (slug: string) =>
@@ -72,6 +73,12 @@ function socketdotioIconUrl(isDark: boolean) {
     : "https://cdn.simpleicons.org/socketdotio/010101";
 }
 
+function nextjsIconUrl(isDark: boolean) {
+  return isDark
+    ? "https://cdn.simpleicons.org/next.js/ffffff"
+    : "https://cdn.simpleicons.org/next.js/000000";
+}
+
 function SkillLogo({ slug, label }: { slug: string; label: string }) {
   const { resolvedTheme } = useTheme();
   const isDark = resolvedTheme === "dark";
@@ -84,7 +91,9 @@ function SkillLogo({ slug, label }: { slug: string; label: string }) {
         ? expressIconUrl(isDark)
         : slug === "socketdotio"
           ? socketdotioIconUrl(isDark)
-          : iconColorUrl(slug);
+          : slug === "next.js"
+            ? nextjsIconUrl(isDark)
+            : iconColorUrl(slug);
 
   useEffect(() => {
     setFailed(false);
@@ -114,7 +123,11 @@ function SkillLogo({ slug, label }: { slug: string; label: string }) {
   );
 }
 
-export function SkillsSection({ techCards, toolCards, languages }: SkillsSectionProps) {
+export function SkillsSection({
+  techCards,
+  toolCards,
+  languages,
+}: SkillsSectionProps) {
   const { t } = useTranslation();
   const sectionRef = useRef<HTMLElement>(null);
   const [inView, setInView] = useState(false);
@@ -153,7 +166,9 @@ export function SkillsSection({ techCards, toolCards, languages }: SkillsSection
       <div className="skills-panel">
         <div className="skills-panel__inner">
           <div>
-            <h3 className="skills-section__group-title">{t("skills.techTitle")}</h3>
+            <h3 className="skills-section__group-title">
+              {t("skills.techTitle")}
+            </h3>
             <div className="skills-grid">
               {techCards.map((card, index) => (
                 <article
@@ -173,7 +188,9 @@ export function SkillsSection({ techCards, toolCards, languages }: SkillsSection
           </div>
 
           <div>
-            <h3 className="skills-section__group-title">{t("skills.toolsTitle")}</h3>
+            <h3 className="skills-section__group-title">
+              {t("skills.toolsTitle")}
+            </h3>
             <div className="skills-grid--tools">
               {toolCards.map((card, index) => (
                 <article
@@ -197,7 +214,9 @@ export function SkillsSection({ techCards, toolCards, languages }: SkillsSection
       </div>
 
       <div className="skills-lang-panel">
-        <h3 className="skills-section__group-title">{t("skills.languagesTitle")}</h3>
+        <h3 className="skills-section__group-title">
+          {t("skills.languagesTitle")}
+        </h3>
         <ul className="skills-lang-list">
           {languages.map((lang) => (
             <li key={lang.name} className="skills-lang-item">

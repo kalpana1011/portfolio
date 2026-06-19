@@ -74,7 +74,8 @@
       { "name": "Socket.IO", "icon": "socketdotio" },
       { "name": "MongoDB", "icon": "mongodb" },
       { "name": "Mongoose", "icon": "mongoose" },
-      { "name": "Accessibility", "icon": "w3c" }
+      { "name": "Accessibility", "icon": "w3c" },
+      { "name": "Next.js", "icon": "next.js" }
     ],
     "toolCards": [
       { "name": "Figma", "icon": "figma" },
@@ -82,7 +83,7 @@
       { "name": "GitHub", "icon": "github" },
       { "name": "VS Code", "icon": "visualstudiocode" },
       { "name": "npm", "icon": "npm" },
-      { "name": "Jira", "icon": "jira" }
+      { "name": "Miro", "icon": "miro" }
     ],
     "languagesTitle": "Languages",
     "languages": [
