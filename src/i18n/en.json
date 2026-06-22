@@ -168,13 +168,19 @@
     "items": [
       {
         "id": "bagpack",
-        "title": "Bagpack Shop Figma Design",
+        "title": "Bagpack Shop Case Study",
         "description": "E-commerce UI and interactive prototypes for desktop, tablet, and mobile—crafted in Figma.",
         "tags": ["Figma", "UI Design", "Prototype", "Responsive"],
         "category": "design",
         "externalLabel": "Open in Figma",
         "externalUrl": "https://www.figma.com/proto/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=259-2790&t=et9jgn8MwLVWBo0R-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=205%3A1690",
+        "tertiaryLabel": "User Research (Miro)",
+        "tertiaryUrl": "https://miro.com/app/board/uXjVJlI9KKA=/?moveToWidget=3458764676148664482&cot=14",
         "previewKind": "figma-tabs",
+        "primaryArtifactLabel": "Analysis Report",
+        "primaryArtifactUrl": "/documents/Målgruppsanalys_Rapport.pdf",
+        "secondaryArtifactLabel": "Analysis Presentation",
+        "secondaryArtifactUrl": "/documents/Målgruppsanalys_Presentation.pdf",
         "figmaFrames": [
           {
             "label": "Desktop",
@@ -197,12 +203,12 @@
         "tags": ["Figma", "Design System", "Components"],
         "category": "design",
         "externalLabel": "Open in Figma",
-        "externalUrl": "https://www.figma.com/design/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=414-407&t=Wm7eenfS653TI56i-1",
+        "externalUrl": "https://www.figma.com/design/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=358-5935&t=aUw2NpiH3nXkrb9B-1",
         "previewKind": "figma-tabs",
         "figmaFrames": [
           {
             "label": "Library",
-            "url": "https://www.figma.com/design/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=414-407&t=Wm7eenfS653TI56i-1"
+            "url": "https://www.figma.com/design/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=358-5935&t=aUw2NpiH3nXkrb9B-1"
           },
           {
             "label": "Design Tokens",
@@ -224,6 +230,8 @@
         "externalUrl": "https://winter-shop-pi.vercel.app/",
         "secondaryLabel": "GitHub",
         "secondaryUrl": "https://github.com/kalpana1011/winter-shop",
+        "tertiaryLabel": "Figma Design",
+        "tertiaryUrl": "https://www.figma.com/design/y5tWPL6A79QFevf07iqKdd/Optimus?node-id=475-1295&t=Eu8lvZasIfsRt0JA-1",
         "previewKind": "iframe",
         "iframeUrl": "https://winter-shop-pi.vercel.app/"
       },

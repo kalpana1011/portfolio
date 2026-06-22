@@ -13,6 +13,12 @@ export type ProjectCardItem = {
   externalUrl: string;
   secondaryLabel?: string;
   secondaryUrl?: string;
+  tertiaryLabel?: string;
+  tertiaryUrl?: string;
+  primaryArtifactUrl?: string;
+  primaryArtifactLabel?: string;
+  secondaryArtifactUrl?: string;
+  secondaryArtifactLabel?: string;
   previewKind: "iframe" | "figma-tabs";
   iframeUrl?: string;
   figmaFrames?: ProjectFigmaFrame[];
