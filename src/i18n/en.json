@@ -87,11 +87,31 @@
     ],
     "languagesTitle": "Languages",
     "languages": [
-      { "name": "English", "level": "Fluent", "flag": "\uD83C\uDDEC\uD83C\uDDE7" },
-      { "name": "Swedish", "level": "Professional", "flag": "\uD83C\uDDF8\uD83C\uDDEA" },
-      { "name": "Hindi", "level": "Native", "flag": "\uD83C\uDDEE\uD83C\uDDF3" },
-      { "name": "Marathi", "level": "Native", "flag": "\uD83C\uDDEE\uD83C\uDDF3" },
-      { "name": "Sanskrit", "level": "Basic", "flag": "\uD83C\uDDEE\uD83C\uDDF3" }
+      {
+        "name": "English",
+        "level": "Fluent",
+        "flag": "\uD83C\uDDEC\uD83C\uDDE7"
+      },
+      {
+        "name": "Swedish",
+        "level": "Professional",
+        "flag": "\uD83C\uDDF8\uD83C\uDDEA"
+      },
+      {
+        "name": "Hindi",
+        "level": "Native",
+        "flag": "\uD83C\uDDEE\uD83C\uDDF3"
+      },
+      {
+        "name": "Marathi",
+        "level": "Native",
+        "flag": "\uD83C\uDDEE\uD83C\uDDF3"
+      },
+      {
+        "name": "Sanskrit",
+        "level": "Basic",
+        "flag": "\uD83C\uDDEE\uD83C\uDDF3"
+      }
     ]
   },
   "experience": {
@@ -221,6 +241,17 @@
         ]
       },
       {
+        "id": "shophub",
+        "title": "ShopHub",
+        "description": "An E-commerce webshop made by Figma Make AI",
+        "tags": ["Figma", "AI"],
+        "category": "design",
+        "externalLabel": "Open live site",
+        "externalUrl": "https://cola-coding-83264916.figma.site/",
+        "previewKind": "iframe",
+        "iframeUrl": "https://cola-coding-83264916.figma.site/"
+      },
+      {
         "id": "winter-shop",
         "title": "The Winter Shop",
         "description": "A premium e-commerce storefront implementing the Optimus design system—Vite, TypeScript, and modular SCSS. Frontend-only demo with mock data.",
@@ -250,31 +281,38 @@
       },
 
       {
-  "id": "digital-library",
-  "title": "Digital Library Catalogue",
-  "description": "A robust, fully type-safe bookstore application featuring global Open Library API index queries, dynamic session-isolated bookshelves, server-action data mutations, and fluid pagination.",
-  "tags": ["Next.js", "React", "TypeScript", "Tailwind CSS", "MongoDB", "Mongoose"],
-  "category": "web",
-  "externalLabel": "Open live site",
-  "externalUrl": "https://chapter-one-ten.vercel.app/",
-  "secondaryLabel": "GitHub",
-  "secondaryUrl": "http://github.com/kalpana1011/chapter-one",
-  "previewKind": "iframe",
-  "iframeUrl": "https://chapter-one-ten.vercel.app/"
-},
- {
-  "id": "wildPluse",
-  "title":  "The Zoo",
-  "description": "Dynamic computation of animal hunger based on a 3-hour timestamp duration.Automated alerts for overdue feedings with  API data fetching and a responsive, mobile-friendly UI.",
-  "tags": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
-  "category": "web",
-  "externalLabel": "Open live site",
-  "externalUrl": "https://wild-pluse.vercel.app",
-  "secondaryLabel": "GitHub",
-  "secondaryUrl": "http://github.com/kalpana1011/wild-plus",
-  "previewKind": "iframe",
-  "iframeUrl": "https://wild-pluse.vercel.app"
-}
+        "id": "digital-library",
+        "title": "Digital Library Catalogue",
+        "description": "A robust, fully type-safe bookstore application featuring global Open Library API index queries, dynamic session-isolated bookshelves, server-action data mutations, and fluid pagination.",
+        "tags": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "MongoDB",
+          "Mongoose"
+        ],
+        "category": "web",
+        "externalLabel": "Open live site",
+        "externalUrl": "https://chapter-one-ten.vercel.app/",
+        "secondaryLabel": "GitHub",
+        "secondaryUrl": "http://github.com/kalpana1011/chapter-one",
+        "previewKind": "iframe",
+        "iframeUrl": "https://chapter-one-ten.vercel.app/"
+      },
+      {
+        "id": "wildPluse",
+        "title": "The Zoo",
+        "description": "Dynamic computation of animal hunger based on a 3-hour timestamp duration.Automated alerts for overdue feedings with  API data fetching and a responsive, mobile-friendly UI.",
+        "tags": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+        "category": "web",
+        "externalLabel": "Open live site",
+        "externalUrl": "https://wild-pluse.vercel.app",
+        "secondaryLabel": "GitHub",
+        "secondaryUrl": "http://github.com/kalpana1011/wild-plus",
+        "previewKind": "iframe",
+        "iframeUrl": "https://wild-pluse.vercel.app"
+      }
     ]
   },
   "contact": {
